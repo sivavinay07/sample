@@ -87,6 +87,8 @@ const NumberShowdown = () => {
           </div>
 
           {/* Right Panel: Results Showdown */}
+
+          
           <div>
             <div>
               <div>
