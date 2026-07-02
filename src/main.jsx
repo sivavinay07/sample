@@ -6,7 +6,6 @@ import A from "./a.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    {/* <A /> */}
     <NumberShowdown />
   </StrictMode>,
 );
