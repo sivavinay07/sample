@@ -60,7 +60,7 @@ const NumberShowdown = () => {
               {numbers.map((num) => (
                 <button
                   key={num}
-                  onClick={() => handleSelect(num)}
+                  onClick={() => handleSelect(num)} //*************************************** */
                 >
                   {num}
                 </button>
@@ -75,7 +75,7 @@ const NumberShowdown = () => {
               min="1"
               max="9"
               value={selectedNumber}
-              onChange={(e) => handleSelect(e.target.value)}
+              onChange={(e) => handleSelect(e.target.value)} //************************************ */
               placeholder="-"
             />
 
@@ -102,6 +102,7 @@ const NumberShowdown = () => {
             </div>
 
             {/* Dynamic Win/Loss Status Footer matching the sketch text */}
+            {/* ================================== */}
             <div>
               {outcome === 'correct' && <span>correct Guess</span>}
               {outcome === 'wrong' && <span>wrong Guess</span>}
